@@ -1,5 +1,5 @@
 accelerate==0.20.3
-altair==5.1.1
+altair==4.2.2
 asttokens==2.2.1
 attrs==23.1.0
 backcall==0.2.0
