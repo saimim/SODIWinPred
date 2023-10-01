@@ -108,7 +108,6 @@ referencing
 regex
 requests
 rich
-rpds-py
 s3transfer
 scikit-learn
 scipy
