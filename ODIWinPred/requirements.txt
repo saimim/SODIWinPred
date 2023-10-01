@@ -35,7 +35,7 @@ fsspec
 ftfy==6.1.1
 future==0.18.3
 gdown==4.4.0
-gensim==4.3.2
+gensim
 gitdb==4.0.10
 GitPython==3.1.36
 huggingface-hub==0.15.1
