@@ -138,7 +138,6 @@ tzlocal
 urllib3
 vaderSentiment
 validators
-vboxapi
 virtualenv
 watchdog
 wcwidth
