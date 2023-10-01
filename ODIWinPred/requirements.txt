@@ -129,12 +129,9 @@ threadpoolctl
 tokenizers
 toml
 toolz
-torch
 tornado
 tqdm
 traitlets
-transformer-smaller-training-vocab
-transformers
 typing_extensions
 tzdata
 tzlocal
