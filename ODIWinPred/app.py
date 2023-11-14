@@ -1,6 +1,20 @@
 import streamlit as st
 import pickle
 import pandas as pd
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+background-image: url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: cover;
+}
+
+[data-testid = "stHeader"] {
+background-color: rgba(0, 0, 0, 0);
+}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+st.title('ODI Cricket Winning Predction')
 
 teams = [
     'Australia',
@@ -38,8 +52,6 @@ cities = ['Mirpur', 'Abu Dhabi', 'Chittagong', 'Port Elizabeth',
        'Peshawar', 'Sylhet', 'Kandy', 'Faridabad', "St George's",
        'Canterbury', 'Gros Islet', 'Darwin', 'Bogra', 'Jamshedpur',
        'Whangarei']
-st.title('ODI Cricket Winning Predction')
-
 pipe = pickle.load(open('ODIWinpipe.pkl','rb'))
 
 col1, col2 = st.columns(2)
